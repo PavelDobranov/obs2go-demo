@@ -320,12 +320,12 @@ header .languages li:last-child::after {
 
 /* Construction */
 #construction {
-  background: url('../img/construction-bg.jpg') no-repeat center;
+  background: url('../img/construction-bg.png') no-repeat center;
   background-size: cover;
 }
 
 #construction .content {
-  padding: 2rem 0 15rem 0;
+  padding: 2rem 0 12rem 0;
 }
 
 #construction h3 {
@@ -364,7 +364,7 @@ header .languages li:last-child::after {
 
 /* Benefits */
 #benefits .content {
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
 }
 
 #benefits h3 {
@@ -568,7 +568,7 @@ footer i {
   }
 
   #construction {
-    background: url('../img/construction-mobile-bg.jpg') no-repeat center;
+    background: url('../img/construction-mobile-bg.png') no-repeat center;
     background-size: cover;
   }
 
@@ -583,13 +583,12 @@ footer i {
   #construction .left {
     text-align: left;
     padding: 0;
-    min-height: 40rem;
   }
   
   #construction .buttons {
     text-align: center;
-    margin-bottom: 6rem;
     display: block;
+    margin-top: 4rem;
   }
   
   #construction .slider-btn {
@@ -598,7 +597,11 @@ footer i {
     color: #8a8a8a;
     background: #f4f4f4
   }
- 
+  
+  #construction p {
+    margin-bottom: 3rem;
+  }
+
   #construction .slider-btn.active {
     color: #fff;
     background: #004d73;
